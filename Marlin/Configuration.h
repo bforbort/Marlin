@@ -2275,13 +2275,13 @@
 
 #if EITHER(RGB_LED, RGBW_LED)
 //EXP2
-  #define RGB_LED_R_PIN P3_25
-  #define RGB_LED_G_PIN P1_31
-  #define RGB_LED_B_PIN P3_26
+  #define RGB_LED_R_PIN EXPA2_06_PIN
+  #define RGB_LED_G_PIN EXPA2_04_PIN
+  #define RGB_LED_B_PIN EXPA2_08_PIN
 //EXP1
-  //#define RGB_LED_R_PIN P1_20
-  //#define RGB_LED_G_PIN P1_22
-  //#define RGB_LED_B_PIN P1_18
+  //#define RGB_LED_R_PIN EXPA1_06_PIN
+  //#define RGB_LED_G_PIN EXPA1_04_PIN
+  //#define RGB_LED_B_PIN EXPA1_08_PIN
 
   #define RGB_LED_W_PIN -1
 #endif
