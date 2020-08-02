@@ -1479,7 +1479,7 @@
       //#define TOUCH_UI_UTF8_SUPERSCRIPTS  // ¹ ² ³
       //#define TOUCH_UI_UTF8_COPYRIGHT     // © ®
       //#define TOUCH_UI_UTF8_GERMANIC      // ß
-      //#define TOUCH_UI_UTF8_SCANDINAVIAN  // Æ �? Ø Þ æ ð ø þ
+      //#define TOUCH_UI_UTF8_SCANDINAVIAN  // Æ Ð Ø Þ æ ð ø þ
       //#define TOUCH_UI_UTF8_PUNCTUATION   // « » ¿ ¡
       //#define TOUCH_UI_UTF8_CURRENCY      // ¢ £ ¤ ¥
       //#define TOUCH_UI_UTF8_ORDINALS      // º ª
