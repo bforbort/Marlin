@@ -2408,7 +2408,7 @@
    */
   #define STEALTHCHOP_XY
   #define STEALTHCHOP_Z
-  //#define STEALTHCHOP_E   // Disabled to test for missing steps
+  //#define STEALTHCHOP_E   // Disabled due to lost steps
 
   /**
    * Optimize spreadCycle chopper parameters by using predefined parameter sets
