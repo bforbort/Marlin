@@ -167,6 +167,12 @@
   #endif
 #endif
 
+#define PIN_SERIAL3_RX  P4_29
+#define PIN_SERIAL3_TX  P4_28
+
+#define PIN_WIFI_RX  PIN_SERIAL3_RX
+#define PIN_WIFI_TX  PIN_SERIAL3_TX
+
 #if HAS_TMC_UART
   /**
    * TMC2208/TMC2209 stepper drivers
