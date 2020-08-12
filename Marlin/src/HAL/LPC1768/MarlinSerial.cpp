@@ -45,6 +45,8 @@
   }
 #endif
 
+// This ultimately calls HardwareSerial on LPC_UART3, initializing the wrong pins.
+// See https://github.com/p3p/pio-framework-arduino-lpc176x/pull/33/files#diff-27d2254555d81490396d0221f37116f5R107
 #if SERIAL_PORT == 3 || SERIAL_PORT_2 == 3 || DGUS_SERIAL_PORT == 3
   MarlinSerial MSerial3(LPC_UART3);
   extern "C" void UART3_IRQHandler() {
